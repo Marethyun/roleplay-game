@@ -1,0 +1,31 @@
+body {
+	margin: 0;
+}
+
+* {
+	font-family: 'Helvetica';
+}
+
+#topbar {
+	padding: 5px;
+	background-color: purple;
+	margin-bottom: 10px;
+}
+
+#topbar > * {
+	color: white;
+}
+
+.resolve-padding {
+	padding: 0px;
+}
+
+#form-dice {
+	padding-right: 16px;
+	margin-right: 30px;
+}
+
+#chat {
+	max-height: 400px;
+	overflow: scroll;
+}
